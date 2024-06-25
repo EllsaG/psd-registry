@@ -7,6 +7,6 @@ spring:
     import: 'optional:configserver:'
   cloud:
     config:
-      uri: http://localhost:8001
+      uri: https://app-8b2a441b-b715-4698-9cd5-a9305dcc7ab2.cleverapps.io/
 #      username: user
 #      password: admin
