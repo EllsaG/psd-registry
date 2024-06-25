@@ -1,9 +1,9 @@
 #temp container to build using gradle
 
-FROM gradle:7.3-jdk8 AS BUILD
+FROM gradle:8.8-jdk17 AS BUILD
 ENV APP_HOME=/usr/app/
 WORKDIR $APP_HOME
-COPY build.gradle settings.gradle $APP_HOME
+COPY build.gradle.kts settings.gradle.kts $APP_HOME
 
 COPY gradle $APP_HOME/gradle
 COPY --chown=gradle:gradle . /home/gradle/src
