@@ -1,0 +1,12 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: test-registry
+  config:
+    import: 'optional:configserver:'
+  cloud:
+    config:
+      uri: http://localhost:8001
+#      username: user
+#      password: admin
