@@ -1,1 +1,1 @@
-rootProject.name = "test-registry"
+rootProject.name = "psd-registry"
