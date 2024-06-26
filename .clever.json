@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "app_id": "app_514208b4-56d5-4a46-b320-2b5e81b4351a",
+      "org_id": "user_7779af19-f554-40b4-b950-10f1b7302215",
+      "deploy_url": "https://push-n3-par-clevercloud-customers.services.clever-cloud.com/app_514208b4-56d5-4a46-b320-2b5e81b4351a.git",
+      "git_ssh_url": "git+ssh://git@push-n3-par-clevercloud-customers.services.clever-cloud.com/app_514208b4-56d5-4a46-b320-2b5e81b4351a.git",
+      "name": "psd-registry",
+      "alias": "psd-registry"
+    }
+  ]
+}

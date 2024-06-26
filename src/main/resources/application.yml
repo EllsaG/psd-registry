@@ -2,11 +2,9 @@ server:
   port: 8761
 spring:
   application:
-    name: test-registry
+    name: psd-registry
   config:
     import: 'optional:configserver:'
   cloud:
     config:
       uri: https://app-8b2a441b-b715-4698-9cd5-a9305dcc7ab2.cleverapps.io/
-#      username: user
-#      password: admin
